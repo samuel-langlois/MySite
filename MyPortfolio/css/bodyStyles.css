@@ -1,0 +1,51 @@
+/*
+Main Styles for Website
+*/
+body{
+    background-color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    color: rgb(255, 251, 0);
+}
+div{
+    width: auto;
+    max-width: 800px;
+    max-height: min-content;
+    margin: auto;
+    z-index: 8;
+}
+.text{
+    color: aliceblue;
+}
+.jokeText{
+    color: aliceblue;
+    background-color: black;
+    border: 0mm;
+    resize: none;
+}
+.langList{
+    color: aliceblue;
+    display: inline-block;
+}
+.menuItem{
+    color: aliceblue;
+    background-color: purple;
+    list-style: none;
+}
+.menu .menuItem{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    align-content: center;
+}
+.menuList{
+    position: fixed;
+    background-color: purple;
+    border: 0px;
+    z-index: 9;
+}.menuList b{
+    text-align: center;
+    display: list-item;
+}
