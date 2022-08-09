@@ -1,0 +1,2 @@
+userName = 
+document.cookie = "";
