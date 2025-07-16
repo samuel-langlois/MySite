@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+	<title>Samuel Langlois's Personal Website</title>
+	<link rel="stylesheet" href="css/bodyStyles.css">
+</head>
+
+<body>
+
+	<!--
+		holds the Menu Bar
+	-->
+<!-- This is the menu -->
+		<header class="header">
+			<nav id="headerNav">
+				<menu id="menu" class="menu">
+					<li id="aboutMe" class="menuItem">
+						About me
+						<div class="menuList" hidden>
+							<b class="menuOption">item 1</b>
+							<b class="menuOption">item 2</b>
+							<b class="menuOption">item 3</b>
+						</div>
+					</li>
+					<li id="projects" class="menuItem">
+						Github Projects
+						<div class="menuList" hidden>
+							<b class="menuOption">RPG Table Maker</b>
+							<b class="menuOption">RPG Shop Viewer</b>
+							<b class="menuOption">Git 1</b>
+							<b class="menuOption">Git 2</b>
+							<b class="menuOption">Git 3</b>
+							<b class="menuOption">Git 4</b>
+							<b class="menuOption">Git 5</b>
+							<b class="menuOption">Git 6</b>
+							<b class="menuOption">Git 7</b>
+							<b class="menuOption">Git 8</b>
+							<b class="menuOption">Git 9</b>
+							<b class="menuOption">Git 10</b>
+							<b class="menuOption">Git comprehensive</b>
+						</div>
+					</li>
+					<li id="jokeAPI" class="menuItem">
+						Tell A Joke
+					</li>
+				</menu>
+			</nav>
+		</header>
+	<main>
+
+		<!--
+		holds the header and about me stuff
+	-->
+		<div class="text">
+			<h1 class="name">Samuel Langlois</h1>
+			<p>Building this website taught me a lot about how websites function and what they are. At the when i started july 15 2022, 
+				I thought it would be a 1 week project but it turns out there are a lot of proticalls in valved with setup up a server through AWS. 
+				I did enjoy this project and in the future there are many things i would do differently like i would use my own compter in the future 
+				that would be dedicated to running the web server, not the AWS was bad it just adds an addition possible problem. Reducing problems is key.
+				I am not do with this website and eventually i think i will change the domain in the future and use it for an idea i have for RPG game AR.
+				I do love coding. 
+				I started with learing Java, then python, followed by Html and Javascript. i also
+				love
+				video
+				games and table top games.</p>
+			<hr size="3" noshade>
+
+		</div>
+		<!--
+		holds the learned list of stuff
+	-->
+
+		<div>
+			<ul class="langList">
+				<h2 class="header-learned">Coding Skills Learned</h2>
+				<li>Object Orented Programming</li>
+				<li>Databases SQL/MongoDB</li>
+				<li>Java: Intermediate to Expert</li>
+				<li>Python: Basic</li>
+				<li>Html: Intermediate</li>
+				<li>CSS: Intermediate</li>
+				<li>JavaScript: Intermediate</li>
+				<!-- <li>My <a href="https://github.com/Shev-Felgrand">Github</a></li> -->
+			</ul>
+		</div>
+		<div>
+			<!-- <iframe src="" id="joke_text" class="jokeText" cols="30" rows="10"></iframe> -->
+			<textarea id="joke_text" class="jokeText" cols="30" rows="10" readonly></textarea>
+		</div>
+		<!--
+		holds the emailing me stuff
+	-->
+	</main>
+	</div>
+	
+	<!-- <h1 class="testText"> BOOBS</h1> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/sv443-joke-api@0.0.8/web/index.js"></script>
+	<script src="scripts/menu.js" charset="utf-8"></script>
+</body>
+
+</html>
